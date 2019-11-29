@@ -21,12 +21,18 @@
 
 import React from "react"
 import RoundedImg from "./RoundedImg"
+import Callout from "./Callout"
 
 function App() {    
     return (
         <div>
             <RoundedImg   />
-            <RoundedImg  src="https://image.shutterstock.com/image-photo/colorful-flower-on-dark-tropical-600w-721703848.jpg"  />
+            <Callout>
+              <h1>I am here</h1>
+            </Callout>
+            <Callout>
+              <h3>I am here too!</h3>
+            </Callout>
         </div>
     )
 }

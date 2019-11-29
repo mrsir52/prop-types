@@ -1,3 +1,5 @@
+//This is an example of using proptypes and default props
+
 import React from "react"
 import PropTypes from "prop-types"
 
@@ -13,8 +15,6 @@ function Card(props) {
     )
 }
 
-// Challenge: Add prop types for the height and width. Make at least one of them required.
-// Extra Challenge: Make it so your incoming cardColor is only valid if it is "blue" or "red".
 
 Card.propTypes = {
     cardColor: PropTypes.oneOf(["green", "purple", "red", "blue"]).isRequired,
