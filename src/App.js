@@ -22,6 +22,8 @@
 import React from "react"
 import RoundedImg from "./RoundedImg"
 import Callout from "./Callout"
+import Count from "./Count"
+import Name from "./Name"
 
 function App() {    
     return (
@@ -33,6 +35,8 @@ function App() {
             <Callout>
               <h3>I am here too!</h3>
             </Callout>
+            <Count />
+            <Name />
         </div>
     )
 }
