@@ -1,23 +1,23 @@
 
-import React, {useState} from "react"
+// import React, {useState} from "react"
 
-function Count () {
-    const [count, setCount] = useState(0)
+// function Count () {
+//     const [count, setCount] = useState(0)
     
-    function increment() {
-        setCount(prevCount => prevCount + 1)
-    }
-    function decrement() {
-        setCount(prevCount => prevCount - 1)
-    }
+//     function increment() {
+//         setCount(prevCount => prevCount + 1)
+//     }
+//     function decrement() {
+//         setCount(prevCount => prevCount - 1)
+//     }
     
-    return (
-        <>
-            <h1>{count}</h1>
-            <button onClick={increment}>Increment</button>
-            <button onClick={decrement}>Decrement</button>
-        </>
-    )
-}
+//     return (
+//         <>
+//             <h1>{count}</h1>
+//             <button onClick={increment}>Increment</button>
+//             <button onClick={decrement}>Decrement</button>
+//         </>
+//     )
+// }
 
-export default Count
+// export default Count
